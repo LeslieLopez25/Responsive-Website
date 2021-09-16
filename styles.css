@@ -30,8 +30,12 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: hsl(186.7, 51.9%, 79.6%);
+  background-image: linear-gradient(
+    to top,
+    hsl(114.3, 100%, 83.5%) 0%,
+    hsl(178, 100%, 53.5%) 100%
+  );
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -55,7 +59,7 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,15 +88,25 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  color: #fff;
+  background: hsl(210.1, 95.7%, 46.1%);
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(143.8, 100%, 47.5%),
+    hsl(193.3, 100%, 46.1%),
+    hsl(210.1, 95.7%, 46.1%)
+  );
+  background: linear-gradient(
+    to right,
+    hsl(143.8, 100%, 47.5%),
+    hsl(193.3, 100%, 46.1%),
+    hsl(210.1, 95.7%, 46.1%)
+  );
+  color: hsl(0, 0%, 100%);
   transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-  color: #9518fc;
+  color: hsl(195.1, 100%, 50%);
   transition: all 0.3s ease;
 }
 
@@ -138,7 +152,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: hsl(0, 0%, 100%);
   }
 
   .navbar__item {
@@ -193,8 +207,8 @@
 /* Hero Section */
 
 .hero {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
+  background: hsl(0, 0%, 0%);
+  background: linear-gradient(to right, hsl(0, 0%, 8.6%), hsl(0, 0%, 0%));
   padding: 200px 0;
 }
 
@@ -213,20 +227,21 @@
 .hero__heading {
   font-size: 100px;
   margin-bottom: 24px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .hero__heading span {
-  background: #ee0979; /* fallback for old browsers */
+  background: hsl(120, 60.8%, 50%);
+  /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ff6a00,
-    #ee0979
+    hsl(143.8, 100%, 47.5%),
+    hsl(210.1, 95.7%, 46.1%)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ff6a00,
-    #ee0979
+    hsl(143.8, 100%, 47.5%),
+    hsl(210.1, 95.7%, 46.1%)
   ); /* WEC, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -289,7 +304,7 @@
 }
 
 .main__content {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   width: 100%;
 }
 
@@ -339,7 +354,7 @@
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   padding: 20px 60px;
   border-radius: 4px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
@@ -360,7 +375,7 @@
 }
 
 .main__btn:hover {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .main__btn:hover::after {
@@ -379,7 +394,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
@@ -505,7 +520,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   transition: 0.3s ease-in;
 }
@@ -557,7 +572,7 @@
 }
 
 .services__card button {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   padding: 14px 24px;
   border: none;
   outline: none;
@@ -600,7 +615,7 @@
 }
 
 #footer__logo {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -631,11 +646,11 @@
 
 .footer__link--items h2 {
   margin-bottom: 16px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .footer__link--items a {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   text-decoration: none;
   margin-bottom: 0.5rem;
   transition: 0.3 ease-out;
@@ -647,7 +662,7 @@
 }
 
 .social__icon--link {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-size: 24px;
 }
 
@@ -673,7 +688,7 @@
 }
 
 .website__rights {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 @media screen and (max-width: 820px) {
