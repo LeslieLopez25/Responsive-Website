@@ -6,9 +6,9 @@
 
 ### Screenshots
 
-<img src="src/images/desktop.png" width="200"> 
-<img src="src/images/navbar.png" width="200">
-<img src="src/images/mobile.png" width="200">
+<img src="images/desktop.png" width="200"> 
+<img src="images/navbar.png" width="200">
+<img src="images/mobile.png" width="200">
 
 ### Link
 
